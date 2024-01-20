@@ -1,0 +1,150 @@
+body {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial Black', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form-container {
+  background-color: rgba(0, 0, 0, 0.527);
+  color:white;
+  width: 350px;
+  height: 55vh;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+#registrationForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#registrationForm h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#registrationForm input[type="text"],
+#registrationForm input[type="email"],
+#registrationForm input[type="password"] {
+  background: rgb(0, 0, 0);
+  padding: 10px;
+  margin-bottom: 70px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+#registrationForm button {
+  padding: 10px;
+  background-color: #00000036;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#registrationForm button:hover {
+  background-color: #222222;
+}
+
+.form-link {
+  display: block;
+  margin-top: 0px;
+  color: #007bff; /* Цвет ссылки */
+  text-decoration: none; /* Убирает подчеркивание ссылки */
+  text-align: center; /* Центрирует текст */
+}
+
+.form-link:hover {
+  text-decoration: underline; /* Добавляет подчеркивание при наведении */
+}
+
+.login-prompt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Расстояние между текстом и ссылкой */
+  margin-top: 10px;
+  color: white;
+}
+
+.login-prompt span {
+  color: rgb(255, 255, 255)000; /* Цвет текста, настраивается по вашему вкусу */
+}
+
+input::placeholder {
+  color: #858585; 
+  opacity: 1; 
+}
+
+
+::-webkit-input-placeholder { 
+  color: #858585;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #858585;
+  opacity: 1;
+}
+
+::-moz-placeholder { 
+  color: #858585;
+  opacity: 1;
+}
+
+:-moz-placeholder { 
+  color: #858585;
+  opacity: 1;
+}
+
+.forgot-password {
+  color: #808080; /* Серый цвет текста */
+  background-color: transparent; /* Прозрачный фон */
+  border: none; /* Убираем границу */
+  text-decoration: underline; /* Подчеркивание для подсказки, что это ссылка */
+  opacity: 0.5; /* Полупрозрачность для тусклости */
+  cursor: pointer; /* Стиль курсора для интерактивности */
+  font-size: 14px; /* Размер шрифта, можно настроить по своему усмотрению */
+}
+
+.forgot-password:hover {
+  opacity: 0.7; /* Немного увеличиваем непрозрачность при наведении */
+}
+
+.haveaccount{
+  background-color: transparent; /* Прозрачный фон */
+  border: none; /* Убираем границу */
+  text-decoration: underline; /* Подчеркивание для подсказки, что это ссылка */
+  opacity: 1; /* Полупрозрачность для тусклости */
+  cursor: pointer; /* Стиль курсора для интерактивности */
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6,
+button, input, select, textarea {
+    font-family: 'Arial Black';
+}
+::-webkit-input-placeholder {
+    font-family: Arial Black;
+}
+:-moz-placeholder {
+    font-family: somefont;
+}
+::-moz-placeholder {
+    font-family: somefont;
+}
+:-ms-input-placeholder {
+    font-family: Arial Black;
+}

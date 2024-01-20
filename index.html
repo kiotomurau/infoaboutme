@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reg/Auth</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/server.js"></script>
+</head>
+<body>
+  <div class="form-container">
+    <form id="registrationForm" action="http://localhost:3000/submit-form" method="post">
+        <h2>Регистрация</h2>
+        <input type="text" placeholder="Имя пользователя" name="username" required>
+        <input type="email" placeholder="Email" name="email" required>
+        <input type="password" placeholder="Пароль" name="password" required>
+        <!-- <div class="g-recaptcha" data-sitekey="ваш_ключ_сайта"></div> -->
+        <button type="submit" >Зарегистрироваться</button><br>
+        <a href="/forgot-password" class="form-link forgot-password">Забыли пароль?</a>
+        <div class="login-prompt">
+          <span>Уже есть аккаунт?</span>
+          <a href="login.html" class="form-link haveaccount">Войти</a>
+      </div>
+    </form>
+</body>
+</html>
